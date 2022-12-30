@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    transition: 1s;
+  }
+  @font-face {
+    font-family: Nunito;
+    src: url(https://cdn.glitch.global/9169d231-8c93-4181-bba6-4e8d8bfd705f/Nunito-Regular.ttf?v=1665153599719);
+  }
+  body {
+    background: black;
+  }
+  #serve {
+    position: fixed;
+    background-image: url("https://cdn.glitch.global/9169d231-8c93-4181-bba6-4e8d8bfd705f/nick-nice-gPm8h3DS1s4-unsplash.jpg?v=1665151317012");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    filter: brightness(50%);
+  }
+  #set {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  #fpw {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0px;
+  }
+  #titlespace {
+    position: relative;
+    background: clear;
+    height: 200px;
+    top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Nunito", sans-serif;
+  }
+  #turtles {
+    position: relative;
+    background: clear;
+    height: 100%;
+    width: 500px;
+    text-align: center;
+  }
+  #title {
+    color: White;
+    font-size: 50px;
+    width: 500px;
+    background: clear;
+  }
+  #subtitle {
+    color: White;
+    font-size: 30px;
+    width: 500px;
+    background: clear;
+  }
+  #go {
+    position: relative;
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url("https://cdn.glitch.global/9169d231-8c93-4181-bba6-4e8d8bfd705f/menu1-removebg-preview.png?v=1665152263789");
+    background-position: center;
+    background-size: 7%;
+    background-repeat: no-repeat;
+    background: clearred;
+    filter: brightness(80%);
+  }
+  #sidepanelserve3 {
+    position: fixed;
+    height: 100%;
+    background: clear;
+    font-family: "Nunito", sans-serif;
+    opacity: 1;
+    top: 0px;
+    width: 100%;
+    z-index:-5;
+  }
+  #sidepanel3 {
+    position: fixed;
+    height: 100%;
+    background: clear;
+    font-family: "Nunito", sans-serif;
+    color: black;
+    opacity: 1;
+    top: 0px;
+    width: 100%;
+    z-index:-5;
+  }
+  .cplspace {
+    width: 100%;
+    height: 100%;
+    background: clear;
+    top:0px;
+  }
+  #prof {
+    position: relative;
+    top: 100px;
+    width: 90%;
+    height: 30%;
+    background: clear;
+    margin: 0 auto;
+  }
+  .profpic {
+    position: relative;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    background: white;
+    border: 1px solid black;
+    background-image: url("https://cdn.glitch.global/9169d231-8c93-4181-bba6-4e8d8bfd705f/photo_2022-10-06_09-18-02.jpg?v=1665175741695");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .profnam {
+    margin: 0 auto;
+    height: 100px;
+    width: 100%;
+    background: clear;
+  }
+  #proftt1 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+  }
+  #proftt2 {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+  }
+  .profdd {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+  }
+  .cpl {
+    position: relative;
+    width: 200px;
+    height: 60%;
+    background: clear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    top:50px;
+  }
+  #cpl {
+    position: relative;
+    width: 200px;
+    height: 60%;
+    background: clear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    opacity: 1;
+    top: 50px;
+  }
+  .cplw {
+    width: 260px;
+    height: auto;
+  }
+  .clb {
+    width: 200px;
+    height: 50px;
+    margin: 30px;
+    background: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .clba {
+    position: relative;
+    width: 200px;
+    height: 50px;
+    margin: 30px;
+    background: clear;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  .clback {
+    position: fixed;
+    width: 200px;
+    height: 50px;
+    margin: 30px;
+    background: black;
+    border-radius: 15px;
+    opacity: 0.7;
+    z-index: 1;
+  }
+  .clback2 {
+    position: fixed;
+    width: 200px;
+    height: 50px;
+    margin-left: 30px;
+    background: black;
+    border-radius: 15px;
+    opacity: 0.7;
+    z-index: 1;
+  }
+  .clback3 {
+    position: fixed;
+    width: 200px;
+    height: 50px;
+    margin-left: 30px;
+    background: black;
+    border-radius: 15px;
+    opacity: 0.7;
+    z-index: 1;
+  }
+  .clback4 {
+    position: fixed;
+    width: 200px;
+    height: 50px;
+    margin-left: 30px;
+    background: black;
+    border-radius: 15px;
+    opacity: 0.7;
+    z-index: 1;
+  }
+  .ab {
+    background: clear;
+    text-align: center;
+    height: 20px;
+    width: 100%;
+  }
+  #ws {
+    position: fixed;
+    height: 100%;
+    width: 100px;
+    background: white;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    left: 0px;
+    transition: 1s;
+  }
+  #wsde {
+    position: fixed;
+    height: 100vh;
+    width: 100px;
+    background: white;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    left: 0px;
+    transition: 1s;
+  }
+  #wstr {
+    position: fixed;
+    height: 100vh;
+    width: 100px;
+    background: white;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    left: 0px;
+    transition: 1s;
+  }
+  #wsqu {
+    position: fixed;
+    height: 100vh;
+    width: 100px;
+    background: white;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    left: 0px;
+    transition: 1s;
+  }
+  .writerflow {
+    position: relative;
+    height: 98%;
+    width: 90%;
+    background: whitesmoke;
+    margin: 0 auto;
+    border-radius: 15px;
+  }
+  .wordshere {
+    position: relative;
+    font-family: "Nunito", sans-serif;
+    margin: 1em;
+    color: gray;
+  }
+  #langsc {
+    height: 100px;
+    width: 100%;
+  
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  
+    margin: 0 auto;
+  }
+  #fe {
+    position: relative;
+    background-image: url("https://cdn.glitch.global/9169d231-8c93-4181-bba6-4e8d8bfd705f/frontend.png?v=1668964452030");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  
+    height: 100px;
+    width: 200px;
+  }
+  #py {
+    position: relative;
+    background-image: url("https://cdn.glitch.global/9169d231-8c93-4181-bba6-4e8d8bfd705f/py-removebg-preview.png?v=1668964530033");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  
+    height: 80px;
+    width: 80px;
+  }
+  #block{
+    position:absolute;
+    width:17%;
+    height:50px;
+    background:black;
+    border-radius:15px;
+    border:3px solid black;
+    margin:1em;
+    right:0px;
+    z-index:-4;
+  }
+  #linx{
+    position:fixed;
+    right:0px;
+    width:20%;
+    height:100%;
+    background:black;
+    font-family: "Nunito", sans-serif;
+    z-index:-6;
+    opacity:1;
+  }
+  #al{
+    position:relative;
+    width:100%;
+    height:100%;
+  }
+  #linxbox{
+    position:relative;
+    width:80%;
+    height:50px;
+    background:black;
+    border-radius:15px;
+    border:1px solid white;
+    margin:1em;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .lb{
+    position:relative;
+    color:white;
+  }
