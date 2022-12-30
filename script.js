@@ -42,6 +42,7 @@ function initiate(){
   if(scrnw < ww || scrnh < hh){
     //alert(scrnw + " , " + scrnh)
     mobile = true;
+    //temp
   } else {
     mobile = false;
   }
